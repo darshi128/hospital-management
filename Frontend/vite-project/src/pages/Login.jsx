@@ -16,7 +16,7 @@ function Login() {
   const handleLogin= async(e)=>{
     e.preventDefault();
     try {
-       await axios.post("http://localhost:4000/api/v1/user/login",
+       await axios.post("http://hospital-management-1-sl9n.onrender.com/api/v1/user/login",
          {email, password,confirmPassword, role:"Patient"},
          {withCredentials:true, headers:{"Content-type":"application/json"}}
         ) .then((res) => {

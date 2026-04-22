@@ -10,7 +10,7 @@ function Messages() {
   useEffect(()=>{
      const fetchMessages =async()=>{
        try{
-       const {data}= await axios.get("http://localhost:4000/api/v1/message/getAll",
+       const {data}= await axios.get("http://hospital-management-1-sl9n.onrender.com/api/v1/message/getAll",
         {withCredentials:true})
         setMessages(data.messages)
        }catch(error){

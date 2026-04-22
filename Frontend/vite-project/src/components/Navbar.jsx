@@ -11,7 +11,7 @@ function Navbar() {
     const navigateTo = useNavigate();
 
     const handleLogout= async()=>{
-            await axios.get("http://localhost:4000/api/v1/user/patient/logout",{
+            await axios.get("http://hospital-management-1-sl9n.onrender.com/api/v1/user/patient/logout",{
                 withCredentials:true
             }).then((res)=>{
                 toast.success(res.data.message);

@@ -2,8 +2,7 @@
 
 A full-stack Hospital Manzagement System built to streamline healthcare operations by connecting **Patients**, **Doctors**, and **Admins** on one platform. This project provides secure authentication, appointment booking, patient record management, and an admin dashboard for smooth hospital workflow.
 
-##  Live Demo
-(Add deployed link here if available)
+
 
 ## Features
 
